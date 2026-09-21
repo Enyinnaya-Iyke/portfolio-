@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of YOUR NAME.">
+  <meta name="theme-color" content="#f0f0e9">
+  <title>YOUR NAME | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <span>YOUR</span> NAME
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">
+        <span class="theme-icon sun">☼</span>
+        <span class="theme-track"><span class="theme-knob"></span></span>
+        <span class="theme-icon moon">◐</span>
+      </button>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Mobile navigation">
+      <a href="#home">01 <span>Home</span></a>
+      <a href="#about">02 <span>About</span></a>
+      <a href="#work">03 <span>Work</span></a>
+      <a href="#contact">04 <span>Contact</span></a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <span>YOUR NAME</span>
+      <span>PERSONAL PORTFOLIO</span>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">HELLO, I'M</p>
+
+        <h1 class="hero-name" aria-label="YOUR NAME">
+          <span class="name-line reveal">YOUR</span>
+          <span class="name-line reveal">NAME<span class="accent-dot">.</span></span>
+        </h1>
+
+        <p class="hero-description reveal">
+          I write, research, and build useful digital work around technology,
+          products, and the ideas shaping the internet.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a class="button button-primary" href="#work">
+            View my work
+            <span class="button-arrow">↗</span>
+          </a>
+          <a class="button button-secondary" href="#contact">
+            Get in touch
+            <span class="button-arrow">↗</span>
+          </a>
+        </div>
+
+        <a class="scroll-cue reveal" href="#about" aria-label="Scroll to About">
+          <span class="scroll-line"></span>
+          <span>SCROLL TO EXPLORE</span>
+        </a>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <div class="portrait-ring"></div>
+          <img src="assets/profile.jpg" alt="Profile illustration" class="portrait">
+        </div>
+        <span class="visual-note">A LITTLE<br>ABOUT ME.</span>
+      </div>
+
+      <div class="hero-index">01 / 04</div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <span class="section-number">02</span>
+        <div>
+          <p class="eyebrow">ABOUT</p>
+          <h2>Who I am.</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-main reveal">
+          <p class="large-copy">
+            I'm <span class="inline-accent">YOUR NAME</span>, a
+            <span class="inline-accent">[YOUR ROLE]</span> focused on
+            clear thinking, useful work, and good digital experiences.
+          </p>
+
+          <p class="body-copy">
+            Write a short paragraph about yourself here. Explain what you do,
+            what you care about, the type of work you take on, and the areas
+            where you bring the most value.
+          </p>
+
+          <div class="skill-list" aria-label="Skills">
+            <span>Writing</span>
+            <span>Research</span>
+            <span>Web3</span>
+            <span>Product</span>
+            <span>Content</span>
+            <span>Strategy</span>
+          </div>
+        </div>
+
+        <div class="about-side reveal">
+          <div class="side-item">
+            <span class="side-icon">01</span>
+            <div>
+              <h3>What I do</h3>
+              <p>Replace this with a short description of your main work.</p>
+            </div>
+          </div>
+
+          <div class="side-item">
+            <span class="side-icon">02</span>
+            <div>
+              <h3>What I focus on</h3>
+              <p>Replace this with the subjects, products, or industries you cover.</p>
+            </div>
+          </div>
+
+          <div class="side-item">
+            <span class="side-icon">03</span>
+            <div>
+              <h3>What I value</h3>
+              <p>Replace this with the principles that guide your work.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading work-heading reveal">
+        <span class="section-number">03</span>
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Things I've worked on.</h2>
+        </div>
+        <span class="work-status">MORE WORK COMING SOON ↗</span>
+      </div>
+
+      <div class="empty-work reveal">
+        <div class="empty-mark">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p class="empty-title">More work coming soon.</p>
+        <p class="empty-description">
+          This space is ready for your projects, writing, research, products,
+          and other work samples.
+        </p>
+      </div>
+
+      <div class="project-grid" aria-hidden="true">
+        <article class="project-placeholder"></article>
+        <article class="project-placeholder"></article>
+        <article class="project-placeholder"></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <span class="section-number">04</span>
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let's connect.</h2>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <p class="large-copy">
+            Have an idea, project, or opportunity?
+            <span class="inline-accent">Let's talk.</span>
+          </p>
+
+          <p class="body-copy">
+            Replace this text with a short invitation for people who want to
+            contact you about work, collaborations, writing, research, or other opportunities.
+          </p>
+
+          <a class="button button-primary" href="mailto:YOUR_EMAIL@example.com">
+            Send me an email
+            <span class="button-arrow">↗</span>
+          </a>
+        </div>
+
+        <div class="social-grid reveal">
+          <a class="social-card" href="#" data-placeholder="true" aria-label="X / Twitter">
+            <span class="social-symbol">𝕏</span>
+            <span class="social-name">X / Twitter</span>
+            <span class="social-arrow">↗</span>
+          </a>
+
+          <a class="social-card" href="#" data-placeholder="true" aria-label="LinkedIn">
+            <span class="social-symbol">in</span>
+            <span class="social-name">LinkedIn</span>
+            <span class="social-arrow">↗</span>
+          </a>
+
+          <a class="social-card" href="#" data-placeholder="true" aria-label="GitHub">
+            <span class="social-symbol">◉</span>
+            <span class="social-name">GitHub</span>
+            <span class="social-arrow">↗</span>
+          </a>
+
+          <a class="social-card" href="mailto:YOUR_EMAIL@example.com" aria-label="Email">
+            <span class="social-symbol">✉</span>
+            <span class="social-name">Email</span>
+            <span class="social-arrow">↗</span>
+          </a>
+
+          <a class="social-card" href="#" data-placeholder="true" aria-label="Discord">
+            <span class="social-symbol">◌</span>
+            <span class="social-name">Discord</span>
+            <span class="social-arrow">↗</span>
+          </a>
+
+          <a class="social-card" href="#" data-placeholder="true" aria-label="Telegram">
+            <span class="social-symbol">➤</span>
+            <span class="social-name">Telegram</span>
+            <span class="social-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> YOUR NAME</span>
+    <span>BUILT WITH INTENTION.</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
